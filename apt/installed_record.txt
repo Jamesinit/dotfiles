@@ -1,0 +1,1 @@
+git openssl ssh net-tools iw htop make gcc make build-essential gcc-12 tmux ca-certificates curl docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin lua5.4 zsh ufw pkg-config libssl-dev python3-dev python3-pip python3-setuptools fzf fd-find ripgrep cmake uuid-dev mailutils
