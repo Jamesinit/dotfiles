@@ -17,18 +17,6 @@ backup_file() {
 		echo "File not exsit! $file_path"
 	fi
 }
-
-detecte_zinit() {
-	local zinit_home="${HOME}/.local/share}/zinit"
-	if  test -d "${zinit_home}"; then
-		echo "Zinit exsit don't need install"
-	else
-		echo "zinit not installed"
-		echo "Will auto install"
-		source ./zinit_install.sh <<<n
-	fi
-}
-
 main() {
 	configs=("${HOME}/.zshrc")
 	for config in "${configs[@]}"; do
@@ -38,10 +26,10 @@ main() {
 	done
 	
 	#insatll zinit
-	detecte_zinit
+#	detecte_zinit
 
-	echo"==============================="
-	rm ${HOME}/.zshrc
+	echo "==============================="
+#	rm ${HOME}/.zshrc
 	#create zshrc soft link
 	ln -s "$(realpath "../zsh/zshrc")" $HOME/.zshrc
 	if [ $? -eq 0 ]; then
