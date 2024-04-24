@@ -1,4 +1,4 @@
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:/usr/bin:/bin:$PATH"
 
 
 # open the fuck alias fix previous command error
@@ -40,6 +40,7 @@ zinit light zsh-users/zsh-autosuggestions
 alias sz='source ~/.zshrc'
 alias vz='vim ~/.zshrc'
 alias ds='docker ps'
+alias ls='ls --color=auto'
 
 #========== OMZ Plugins==========
 zinit wait lucid for \
