@@ -1,0 +1,10 @@
+libssl-dev
+tree
+git
+curl
+wget
+build-essential
+stow
+ca-certificates
+lua5.4
+fzf
