@@ -34,6 +34,9 @@ zinit light-mode for \
     zdharma-continuum/fast-syntax-highlighting \
     zdharma-continuum/history-search-multi-word
 
+zinit ice wait blockf
+zinit light zsh-users/zsh-completions
+
 
 #man 手册带颜色
 zinit ice wait'2' lucid
@@ -42,8 +45,14 @@ zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 zinit ice wait'2' lucid
 zinit snippet OMZ::plugins/extract/extract.plugin.zsh
 #git alisa
-zinit ice wait'1' lucid
+zinit ice wait'1' lucid blockf
 zinit snippet OMZ::plugins/git/git.plugin.zsh
+
+zinit snippet OMZ::plugins/z/z.plugin.zsh
+
+zinit ice wait blockf
+zinit snippet OMZ::plugins/docker
+#/docker.plugin.zsh
 
 #提示alias
 zinit snippet https://github.com/MichaelAquilina/zsh-you-should-use/blob/master/you-should-use.plugin.zsh
