@@ -34,7 +34,7 @@ zinit light-mode for \
     zdharma-continuum/fast-syntax-highlighting \
     zdharma-continuum/history-search-multi-word
 
-zinit ice wait blockf
+zinit ice wait blockf lucid
 zinit light zsh-users/zsh-completions
 
 
@@ -50,7 +50,7 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 
 zinit snippet OMZ::plugins/z/z.plugin.zsh
 
-zinit ice wait blockf
+zinit ice wait blockf lucid
 zinit snippet OMZ::plugins/docker
 #/docker.plugin.zsh
 
