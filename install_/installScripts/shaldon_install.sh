@@ -1,3 +1,3 @@
 #!/bin/bash
 # zsh plugin manager
-cargo install sheldon
+sudo apt install libssl-dev pkg-config && cargo install sheldon
