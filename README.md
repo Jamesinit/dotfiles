@@ -13,4 +13,8 @@ source "${HOME}/dotfiles/alias.zsh"
 `mkdir -p ~/.cache/zinit/completions`
 
 # tmux 配置
-ln -s ${HOME}/dotfiles/tmux.conf ~/.tmux.conf
+`ln -s ${HOME}/dotfiles/tmux.conf ~/.tmux.conf`
+# nvim配置
+ps:注意要安装lua
+`sudo apt install lua5.4 -y`
+`ln -s ~/dotfiles/nvim.lua ~/.config/nvim/init.lua`
